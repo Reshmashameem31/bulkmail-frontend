@@ -80,10 +80,10 @@ const SendMail = () => {
       <img
         src='./mailimage.png'
         alt="Mail Icon"
-        className="absolute w-32 left-3 top-32 md:left-1/4 md:top-20 md:w-56"
+        className="absolute w-32 left-3 top-48 md:left-1/4 md:top-36 md:w-64"
       />
 
-      <div className="bg-sky-700 shadow-gray-400 rounded-xl shadow-md p-8 mt-48 w-[90%] max-w-2xl">
+      <div className="bg-sky-700 shadow-gray-400 rounded-xl shadow-md p-8 mt-10 w-[90%] max-w-2xl">
         <h2 className="text-2xl font-semibold text-gray-300 text-center mb-6">
           Compose Your Email
         </h2>
