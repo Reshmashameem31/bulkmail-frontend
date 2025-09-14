@@ -39,7 +39,7 @@ const SendMail = () => {
     }
 
     try {
-      await axios.post("https://bulkmail-backend-1-hj39.onrender.com/sendemail", {
+      await axios.post("https://bulkmail-backend-2-id90.onrender.com/sendemail", {
         subject,
         msg,
         emailList,

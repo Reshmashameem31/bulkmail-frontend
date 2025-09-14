@@ -8,7 +8,7 @@ const History = () => {
   useEffect(() => {
     const fetchEmails = async () => {
       try {
-        const res = await axios.get("https://bulkmail-backend-1-hj39.onrender.com/emails");
+        const res = await axios.get("https://bulkmail-backend-2-id90.onrender.com/emails");
         console.log("Fetched emails:", res.data); // debug
         setEmails(res.data);
       } catch (err) {
